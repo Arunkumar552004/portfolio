@@ -1,0 +1,133 @@
+body{
+   height:100%;
+   width:100%;
+   
+   margin: 0;
+	
+}
+.hero-image{
+    text-align: center;
+
+}
+
+.topnav {
+  background-color: grey;
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.topnav a {
+  float: right;
+  color:white;
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.logo_wr{
+  padding:1rem;
+}
+.nav_links{
+      margin-left: auto;
+}
+
+#showcase{
+  height: 550px;
+  text-align:center;
+  color:#ffffff;
+
+  background-image: url('../img/title.jpg');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#showcase h1, #showcase p{
+  font-size: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  width: auto;
+  background: #f1f1f1;
+
+}
+
+form.example{
+      margin-left: 40%;
+    padding-top: 20px;
+}
+form.example button {
+  float: center;
+  width: auto;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #333;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:30%;
+}
+
+.footer{
+    position: absolute;
+    bottom: -370vh;
+    left: 0;
+    width: 100vw;
+    height: 5rem;
+    background: #777;
+    color: whitesmoke;
+    text-align: center;
+}
+.box img {
+  width: 150px;
+  height: 150px; 
+  object-fit: cover; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+
